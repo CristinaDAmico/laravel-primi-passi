@@ -18,4 +18,7 @@ Route::get('/', function () {
     return view('home');
 });
 
-
+// ABOUT
+Route::get('/about', function () {
+    return view('about');
+});
